@@ -1,0 +1,166 @@
+.image-list_item {
+    color: red;
+}
+
+.filter-btn {
+    display: flex;
+    width: 100%;
+    box-shadow: none !important;
+}
+
+.filter-btn button {
+    width: 100%;
+
+    margin: 30px 10px 0;
+    border-radius: 10px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-list_item {
+        grid-column-end: span 6 !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .image-list_item {
+        grid-column-end: span 12 !important;
+    }
+}
+
+.my-seler-page-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.my-seler-page-container_item {
+    display: flex;
+    width: 100%;
+}
+
+.my-seler-page-container_item > div {
+    margin: 0 10px;
+    width: 100%;
+}
+
+.my-seler-page-container_item .css-viou3o-MuiAutocomplete-root {
+    width: 100%;
+}
+
+.uploade-img_field {
+    position: relative;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.uploade-img_field .MuiButton-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.uploade-img_field .MuiButtonBase-root {
+    align-self: flex-end;
+    order: 2;
+    margin: 0 10px;
+    min-width: 130px;
+    background-color: #1976d2;
+    color: #fff;
+}
+
+.uploade-img_field .MuiButtonBase-root:hover {
+    color: #1976d2;
+}
+
+.uploade-img_field img {
+    background-image: url('./img/uploade-img.png');
+    background-size: contain;
+}
+.uploade-img_field img[src] {
+    background-image: none;
+}
+
+.auction-description div {
+    width: calc(100% - 6px) !important;
+}
+
+.add-btn {
+    width: 100%;
+    height: 46px;
+    margin: 20px 0 !important;
+}
+
+.alert {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.live-auction-container {
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+}
+
+.live-auction-price {
+    display: flex;
+    padding: 10px 20px;
+}
+.live-auction-price button {
+    margin: 0 10px !important;
+}
+
+#root .css-pxxd1-MuiImageListItem-root .MuiImageListItem-img {
+    object-fit: contain;
+}
+
+.live-auction-container img {
+    height: auto;
+}
+
+.my-profile-content_item {
+   display: flex;
+    
+}
+
+.my-profile-content_item  div {
+    padding: 10px 14px;
+}
+.my-profile-content .MuiPaper-root {
+    margin: auto;
+}
+
+#root .my-profile-content .css-pxxd1-MuiImageListItem-root .MuiImageListItem-img {
+    object-fit: cover;
+}
+
+.info-block-content {
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    padding: 15px 10px;
+    bottom: 48px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.info-block-content:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: .4;
+    z-index: -1;
+}
+.info-block:hover .info-block-content {
+    opacity: 1;
+}
+
+.info-btn {
+    position: inherit !important;
+}
